@@ -1,0 +1,147 @@
+body{
+    background-color: black;
+    padding: 63px 82px;
+    margin: 0 42px;
+}
+.images__div{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.buzfeed__image{
+    margin-left: -27px;
+}
+.mediamonks__image{
+    margin-left: -15px;
+}
+.fox__image{
+    margin-left: -2px;
+}
+.masterclass__image{
+    margin-left: 10px;
+}
+.casestudies__link{
+    font-family: "Avenir Next";
+    font-weight: 500;
+    font-size: 21px;
+    color: #ffffff;
+    line-height: 1.6;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.arrow__link{
+    width: 29px;
+    height: 27px;
+    margin-left: 2px;
+    margin-bottom: -7px;
+}
+.links__div{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px) {
+    .images__div{
+        /* display: flex; */
+        flex-direction: column;
+    }
+    .images__div-one{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .mediamonks__image{
+        /* margin: 21px 54px; */
+        margin-left: 142px;
+        
+        width: 101px;
+        height: 40px;
+    }
+    .masterclass__image{
+        /* margin: 21px 54px; */
+        margin-left: 142px;
+        margin-top: -95px;
+        width: 101px;
+        height: 40px;
+    }
+    .fox__image{
+        /* margin: 21px 54px; */
+        margin-left: -80px;
+        width: 101px;
+        height: 40px;
+        margin-bottom: 58px;
+    }
+    .buzfeed__image{
+        /* margin: 21px 54px; */
+        margin-left: -80px;
+        width: 101px;
+        height: 40px;
+    }
+    .national__image{
+        width: 101px;
+        margin-left: -80px;
+        height: 40px;
+    }
+    .google__image{
+        width: 101px;
+        height: 40px;
+        margin-left: 142px;
+        
+    }
+    .casestudies__link{
+        font-size: 26px;
+        margin-left: -216px;
+    }
+    .links__div{
+        width: 269%;
+    }
+    .vice__image{
+        width: 101px;
+        margin-left: -80px;
+        height: 40px;
+    }
+    .ogilvy__image{
+        width: 101px;
+        margin-left: -80px;
+        height: 40px;
+    }
+    .netflix__image{
+        width: 101px;
+        height: 40px;
+        margin-left: 142px;
+       
+    }
+    .turner__image{
+        width: 101px;
+        height: 40px;
+        margin-left: 142px;
+        
+    }
+    body{
+        display: flex;
+    }
+}

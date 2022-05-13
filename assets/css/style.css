@@ -64,6 +64,52 @@ body{
     margin-left: 35rem;
     cursor: pointer;
 }
+.feedback__section{
+    margin-bottom: 140px;
+}
+.mobile__image{
+    width: 592px;
+    height: 649px;
+    margin-right: 121px;
+    margin-top: -68px;
+}
+.main__div{
+    background-color: blue;
+    display: flex;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+.apple__heading{
+    color: #ffffff;
+    font-size: 24px;
+    padding-top: 81px;
+}
+.string__heading{
+    font-weight: 500;
+    line-height: 1;
+    margin-top: 2rem;
+    color: #ffffff;
+    font-family: aktiv-grotesk;
+    font-size: 3.625rem;
+    letter-spacing: -0.04em;
+    width: 50%;
+}
+.stayconnected__paragraph{
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #ffffff;
+    line-height: 1.6;
+    margin-top: 2rem;
+    width: 62%;
+}
+.main__divtwo{
+    padding-left: 81px;
+}
+.link{
+    font-size: 19px;
+    color: #ffffff;
+    text-decoration: none;
+}
 
 
 

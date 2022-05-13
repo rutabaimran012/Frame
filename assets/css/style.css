@@ -40,6 +40,30 @@ body{
     text-align: center;
     margin-top: 30px;
 }
+.getstarted__heading{
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+.feedback__heading{
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 500;
+    width: 56%;
+    margin-left: 286px;
+}
+.getstarted__button{
+    background: rgb(90, 82, 255);
+    color: rgb(255, 255, 255);
+    align-items: center;
+    border-radius: 0.5rem;
+    line-height: 1;
+    height: 3.2rem;
+    padding: 1rem;
+    margin-left: 35rem;
+    cursor: pointer;
+}
 
 
 
@@ -141,7 +165,22 @@ body{
         margin-left: 142px;
         
     }
-    body{
-        display: flex;
+    .getstarted__heading{
+        font-size: 33px;
+        text-align: center;
+        width: 389%;
+    }
+    .feedback__section{
+        padding: 74px 25px;
+    }
+    .feedback__heading{
+        font-size: 57px;
+        margin-top: 24px;
+        width: 687%;
+        margin-left: -159px;
+    }
+    .getstarted__button{
+        margin-left: 139px;
+        width: 123%;
     }
 }

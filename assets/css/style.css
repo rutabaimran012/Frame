@@ -92,7 +92,7 @@ body{
     font-family: aktiv-grotesk;
     font-size: 3.625rem;
     letter-spacing: -0.04em;
-    width: 50%;
+    /* width: 50%; */
 }
 .stayconnected__paragraph{
     font-weight: 500;
@@ -228,5 +228,32 @@ body{
     .getstarted__button{
         margin-left: 139px;
         width: 123%;
+    }
+    .main__div{
+        flex-direction: column;
+        width: 364%;
+    }
+    .apple__heading{
+        font-size: 32px;
+        margin-left: 27px;
+    }
+    .string__heading{
+        font-size: 4rem;
+        margin-top: 24px;
+    }
+    .stayconnected__paragraph{
+        font-size: 24px;
+        margin-top: 24px;
+        width: 83%;
+    }
+    .link{
+        font-size: 17px;
+        margin-left: 139px;
+    }
+    .mobile__image{
+        width: 384px;
+        height: 355px;
+        margin-left: 109px;
+        margin-top: 20px;
     }
 }
